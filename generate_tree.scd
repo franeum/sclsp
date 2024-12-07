@@ -12,7 +12,10 @@
 		idx.do({ pre = pre ++ " "});
 
 		//(pre ++ class.name ++ "\n").postln;
-		file.write(pre + "-" + class.name);// ++ "\n");
+		if (subclasses.size == 1,
+			{ file.write(pre + " " + class.name) },
+			{ file.write(pre + "-" + class.name) });
+
 		~func.(class, idx+2, file);
 	})
 }

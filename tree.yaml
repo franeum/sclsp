@@ -1,6 +1,6 @@
 Object:
   - HighShelf:
-    - RBJHighShelf
+      RBJHighShelf
   - FlowVar
   - ZLPF
   - Condition
@@ -45,7 +45,7 @@ Object:
   - LRUNumberAllocator
   - Color
   - Image:
-    - QImage
+      QImage
   - HIDInfo
   - HIDProto
   - BtoUHJ
@@ -55,7 +55,7 @@ Object:
   - WarpOverlap
   - SCDocHTMLRenderer
   - DrawGridX:
-    - DrawGridY
+      DrawGridY
   - EventTypesWithCleanup
   - MIDIClient
   - Monitor
@@ -68,13 +68,13 @@ Object:
     - SystemClock
   - CheapVerb
   - Point:
-    - PointArray
+      PointArray
   - MIDIOut
   - Env:
-    - Penv
+      Penv
   - Decorator:
-    - FlowLayout:
-      - FlowViewLayout
+      FlowLayout:
+        FlowViewLayout
   - NamedControl
   - EventStreamCleanup
   - ControlName
@@ -107,34 +107,34 @@ Object:
   - QtGUI
   - ServerStatusWatcher
   - UnitTest:
-    - UnitTestScript
+      UnitTestScript
   - SoundFile
   - PrettyState:
     - PrettyEat
     - PrettyEcho
   - BFGVerb
   - Server:
-    - ScoreStreamPlayer
+      ScoreStreamPlayer
   - ServerOptions:
-    - BelaServerOptions
+      BelaServerOptions
   - Font:
-    - QFont
+      QFont
   - AbstractResponderFunc:
     - OSCFunc:
-      - OSCdef
+        OSCdef
     - HIDFunc:
-      - HIDdef
+        HIDdef
     - MIDIFunc:
-      - MIDIdef
+        MIDIdef
   - BLowPass4
   - AbstractMDPlugin:
-    - TextArchiveMDPlugin
+      TextArchiveMDPlugin
   - PointSource
   - BHiPass4
   - VocodeBand
   - PathName
   - LowShelf:
-    - RBJLowShelf
+      RBJLowShelf
   - SCDocNode
   - Quark
   - Git
@@ -146,11 +146,11 @@ Object:
     - BlankGridLines
   - PowerOfTwoBlock
   - Spec:
-    - ControlSpec
+      ControlSpec
   - QAlignment
   - Feedback
   - TreeViewItem:
-    - QTreeViewItem
+      QTreeViewItem
   - MIDIEvent
   - UHJtoB
   - BFDecode
@@ -174,7 +174,7 @@ Object:
   - GraphBuilder
   - StkBowedI
   - AbstractNodeWatcher:
-    - BasicNodeWatcher:
+      BasicNodeWatcher:
       - NodeWatcher
       - DebugNodeWatcher
   - SerialPort
@@ -182,15 +182,15 @@ Object:
   - ServerMeter
   - PMOsc
   - AbstractDispatcher:
-    - AbstractWrappingDispatcher:
+      AbstractWrappingDispatcher:
       - OSCMessageDispatcher:
-        - OSCMessagePatternDispatcher
+          OSCMessagePatternDispatcher
       - HIDUsageDispatcher:
         - HIDElementDispatcher
         - HIDDeviceDispatcher
       - MIDIMessageDispatcher:
         - MIDISysexDispatcher:
-          - MIDIMTCtoSMPTEDispatcher
+            MIDIMTCtoSMPTEDispatcher
         - MIDIMessageDispatcherNV
         - MIDISysDataDispatcher:
           - MIDISysNoDataDispatcher
@@ -199,13 +199,13 @@ Object:
   - QMetaObject
   - OSCresponder:
     - OSCMultiResponder:
-      - OSCpathDispatcher
+        OSCpathDispatcher
     - OSCpathResponder
     - OSCresponderNode
   - GridLines
   - QToolButtonStyle
   - NetAddr:
-    - BundleNetAddr
+      BundleNetAddr
   - ReadableNodeIDAllocator
   - AbstractSystemAction:
     - OnError
@@ -219,7 +219,7 @@ Object:
   - PriorityQueue
   - Vocode
   - Pen:
-    - QPen
+      QPen
   - ServerMeterView
   - HIDElement
   - SlotInspector
@@ -237,22 +237,22 @@ Object:
   - SCViewHolder:
     - FlowView
     - ObjectGui:
-      - StringGui
+        StringGui
   - Plot
   - Document
   - BHPF
   - TapN
   - VBAPSpeakerSet
   - Platform:
-    - UnixPlatform:
-      - LinuxPlatform
+      UnixPlatform:
+        LinuxPlatform
   - BBlockerProgram
   - Date
   - FreqScope:
     - PlusFreqScopeWindow
     - FreqScopeWindow
   - Notch:
-    - RBJNotch
+      RBJNotch
   - FreeVerb1
   - QMenuRole
   - Message
@@ -263,8 +263,8 @@ Object:
   - SkipJack
   - BF
   - OSCBundle:
-    - MixedBundle:
-      - MixedBundleTester
+      MixedBundle:
+        MixedBundleTester
   - QCurve
   - AbstractMessageMatcher:
     - OSCArgsMatcher
@@ -288,16 +288,16 @@ Object:
   - NumChannels
   - URI
   - Dialog:
-    - QDialog
+      QDialog
   - QColorRole
   - QObject:
     - FileDialog:
-      - QFileDialog
+        QFileDialog
     - Download
     - ScrollCanvas:
       - QScrollCanvas
       - TopScrollWidget:
-        - QTopScrollWidget
+          QTopScrollWidget
     - QCallback
     - AbstractMenuAction:
       - MenuAction
@@ -305,115 +305,115 @@ Object:
     - QPenPrinter
     - Layout:
       - GridLayout:
-        - QGridLayout
+          QGridLayout
       - LineLayout:
         - QLineLayout
         - VLayout:
-          - QVLayout
+            QVLayout
         - HLayout:
-          - QHLayout
+            QHLayout
       - QLayout
       - StackLayout:
-        - QStackLayout
+          QStackLayout
     - View:
       - Button:
-        - QButton
+          QButton
       - EnvelopeView:
-        - QEnvelopeView
+          QEnvelopeView
       - MultiSliderView:
-        - QMultiSliderView
+          QMultiSliderView
       - TreeView:
-        - QTreeView
+          QTreeView
       - VLayoutView:
-        - QVLayoutView
+          QVLayoutView
       - CheckBox:
-        - QCheckBox
+          QCheckBox
       - SCScope:
-        - QScope
+          QScope
       - QuartzComposerView:
-        - QQuartzComposerView
+          QQuartzComposerView
       - SoundFileView:
-        - QSoundFileView
+          QSoundFileView
       - CompositeView
       - TopView:
-        - QTopView
+          QTopView
       - WebView:
-        - QWebView
+          QWebView
       - UserView:
-        - QUserView
+          QUserView
       - TextViewBase:
         - TextField:
           - DragView:
             - DragSource:
-              - QDragSource
+                QDragSource
             - DragSink:
               - QDragSink
               - DragBoth:
-                - QDragBoth
+                  QDragBoth
             - QDragView
           - QTextField
         - QTextViewBase
         - StaticText:
-          - QStaticText
+            QStaticText
       - AbstractScroll:
         - ScrollView:
           - QScrollView
           - ScrollTopView:
-            - QScrollTopView
+              QScrollTopView
         - QAbstractScroll:
-          - TextView:
-            - QTextView
+            TextView:
+              QTextView
       - ItemViewBase:
         - ListView:
-          - QListView
+            QListView
         - PopUpMenu:
-          - QPopUpMenu
+            QPopUpMenu
         - QItemViewBase
       - QView
       - AbstractStepValue:
-        - QAbstractStepValue:
+          QAbstractStepValue:
           - Knob:
-            - QKnob
+              QKnob
           - RangeSlider:
-            - QRangeSlider
+              QRangeSlider
           - NumberBox:
-            - QNumberBox
+              QNumberBox
           - Slider:
-            - QSlider
+              QSlider
           - Slider2D:
-            - QSlider2D
+              QSlider2D
       - ScopeView:
         - Scope2
         - QScope2
       - HLayoutView:
-        - QHLayoutView
+          QHLayoutView
       - LevelIndicator:
-        - QLevelIndicator
+          QLevelIndicator
       - AbstractActionView:
         - Menu
         - ToolBar
   - Window:
-    - QWindow
+      QWindow
   - Speakers
   - EnvironmentRedirect:
-    - LazyEnvir:
-      - ProxySpace
+      LazyEnvir:
+        ProxySpace
   - Node:
     - AbstractGroup:
       - Group:
-        - RootNode
+          RootNode
       - ParGroup
     - Synth
   - BLPF
   - NotificationRegistration
   - GUI
   - SelectX:
-    - LinSelectX
+      LinSelectX
   - LRLPF
   - SimpleController
   - Exception:
-    - Error:
-      - MethodError:
+      Error:
+        MethodError:
         - MustBeBooleanError
         - ImmutableError
         - NotYetImplementedError
@@ -423,19 +423,19 @@ Object:
         - PrimitiveFailedError
         - SubclassResponsibilityError
         - DoesNotUnderstandError:
-          - BinaryOpFailureError
+            BinaryOpFailureError
   - VBAPSpeakerArray
   - PatternConductor
   - Vocoder
   - AbstractPlayControl:
     - SynthControl:
-      - SynthDefControl
+        SynthDefControl
     - StreamControl:
-      - PatternControl
+        PatternControl
   - StackNumberAllocator
   - BhobLoShelf
   - Scale:
-    - ScaleAD
+      ScaleAD
   - QWebFontFamily
   - JITGui:
     - NdefGui
@@ -449,9 +449,9 @@ Object:
       - TdefGui
       - PdefGui
     - EnvirGui:
-      - NdefParamGui
+        NdefParamGui
     - ProxyMixer:
-      - NdefMixer
+        NdefMixer
     - HistoryGui
   - QLevelIndicatorStyle
   - QColorGroup
@@ -479,12 +479,12 @@ Object:
     - CCResponder
     - ProgramChangeResponder
     - NoteOnResponder:
-      - NoteOffResponder
+        NoteOffResponder
     - TouchResponder:
-      - BendResponder
+        BendResponder
   - MethodOverride
   - SoundIn:
-    - AudioIn
+      AudioIn
   - ScIDE
   - Rect
   - UniqueID
@@ -497,7 +497,7 @@ Object:
   - Help
   - VolumeGui
   - Stethoscope:
-    - QStethoscope
+      QStethoscope
   - Mix
   - HID
   - Buffer
@@ -535,7 +535,7 @@ Object:
       - UGenThunk
       - CallOnce
     - UnaryOpFunction:
-      - UnaryOpFunctionProxy
+        UnaryOpFunctionProxy
     - UGen:
       - Line
       - PV_XFade
@@ -599,10 +599,10 @@ Object:
             - PV_NoiseSynthF
             - PV_PartialSynthP
           - PV_OddBin:
-            - PV_EvenBin
+              PV_EvenBin
           - PV_MagExp
           - Cepstrum:
-            - ICepstrum
+              ICepstrum
           - PV_Invert
           - PV_MagSmooth
           - PV_MagMap
@@ -611,7 +611,7 @@ Object:
           - PV_BinWipe
           - PV_SpectralMap
           - PV_MaxMagN:
-            - PV_MinMagN
+              PV_MinMagN
           - PV_RandComb
           - PV_MagSquared:
             - PV_PhaseShift270
@@ -621,7 +621,7 @@ Object:
           - PV_MagSmear
           - PackFFT
           - PV_MagBuffer:
-            - PV_FreqBuffer
+              PV_FreqBuffer
           - PV_RectComb2
           - PV_PhaseShift
           - PV_MagMulAdd
@@ -644,7 +644,7 @@ Object:
         - IFFT
       - Squiz
       - MostChange:
-        - LeastChange
+          LeastChange
       - SLOnset
       - SplayAz
       - StkFlute
@@ -689,7 +689,7 @@ Object:
         - NumAudioBuses
         - NumOutputBuses
       - PV_CommonMag:
-        - PV_CommonMul
+          PV_CommonMul
       - FFTFluxPos
       - MoogLadder
       - Clipper32
@@ -723,7 +723,7 @@ Object:
       - DUGen:
         - Dreset
         - MultiOutDemandUGen:
-          - Dneuromodule
+            Dneuromodule
         - ListDUGen:
           - Drand
           - Dser
@@ -731,10 +731,10 @@ Object:
           - Dshuf
           - Dxrand
         - Dbrown:
-          - Dibrown
+            Dibrown
         - Dseries
         - Dwhite:
-          - Diwhite
+            Diwhite
         - Dbufrd
         - Dfsm
         - Dbufwr
@@ -745,10 +745,10 @@ Object:
         - DetaBlockerBuf
         - Dconst
         - Dswitch1:
-          - Dswitch
+            Dswitch
         - Dpoll
         - DbufTag:
-          - Dtag
+            Dtag
         - Dgeom
       - Spring
       - PeakEQ4
@@ -761,7 +761,7 @@ Object:
         - DoubleNestedAllpassC
         - DoubleNestedAllpassL
       - Normalizer:
-        - Limiter
+          Limiter
       - Dgauss
       - PauseSelfWhenDone
       - SortBuf
@@ -786,7 +786,7 @@ Object:
       - ScopeOut2
       - FFTPhaseDev
       - SendTrig:
-        - SendReply
+          SendReply
       - LastValue
       - FreqShift
       - BufInfoUGenBase:
@@ -801,7 +801,7 @@ Object:
         - Latoocarfian2DC
       - TExpRand
       - MCLDChaosGen:
-        - RosslerResL
+          RosslerResL
       - ZeroCrossing
       - OSWrap8
       - Dunique
@@ -817,7 +817,7 @@ Object:
       - Concat2
       - PauseSelf
       - Duty:
-        - TDuty
+          TDuty
       - FFTMKL
       - LFNoise0:
         - LFNoise1
@@ -845,7 +845,7 @@ Object:
       - WalshHadamard
       - EnvDetect
       - MouseX:
-        - MouseY
+          MouseY
       - MultiOutUGen:
         - JPverbRaw
         - WarpZ
@@ -860,12 +860,12 @@ Object:
         - MFCC
         - AttackSlope
         - JoshMultiChannelGrain:
-          - MonoGrainBF
+            MonoGrainBF
         - LADSPA
         - PureMultiOutUGen:
-          - DC
+            DC
         - ArrayMax:
-          - ArrayMin
+            ArrayMin
         - BeatTrack
         - CQ_Diff
         - PanAz
@@ -938,7 +938,7 @@ Object:
           - Tumble
           - B2A
         - Pan2:
-          - LinPan2
+            LinPan2
         - LPCVals
         - PlayBuf
         - GrainSinJ
@@ -955,7 +955,7 @@ Object:
         - Rotate2
         - SpectralEntropy
         - BufMax:
-          - BufMin
+            BufMin
         - PanX
         - DecodeB2
         - Pan4
@@ -990,7 +990,7 @@ Object:
           - FBSineL
           - FBSineC
         - CuspN:
-          - CuspL
+            CuspL
         - QuadN:
           - QuadL
           - QuadC
@@ -999,9 +999,9 @@ Object:
           - LinCongL
         - LorenzL
         - StandardN:
-          - StandardL
+            StandardL
         - GbmanN:
-          - GbmanL
+            GbmanL
       - WaveletDaub
       - Max
       - DWGPluckedStiff
@@ -1030,7 +1030,7 @@ Object:
       - DPW4Saw
       - Loudness
       - MembraneCircle:
-        - MembraneHexagon
+          MembraneHexagon
       - DoubleWell
       - OnsetsDS
       - GbmanTrig
@@ -1051,14 +1051,14 @@ Object:
       - PureUGen:
         - DegreeToKey
         - AmpComp:
-          - AmpCompA
+            AmpCompA
         - LFPulse
         - LinExp
         - Formant
         - VOsc
         - Impulse
         - K2A:
-          - T2A
+            T2A
         - Select
         - SyncSaw
         - COsc
@@ -1074,7 +1074,7 @@ Object:
           - FoldIndex
           - Shaper
         - A2K:
-          - T2K
+            T2K
         - DelayN:
           - DelayL
           - DelayC
@@ -1082,14 +1082,14 @@ Object:
         - SinOsc
         - Osc
         - Delay1:
-          - Delay2
+            Delay2
         - Filter:
           - MoogFF
           - Median
           - GlitchHPF
           - Slew
           - GlitchBPF:
-            - GlitchBRF
+              GlitchBRF
           - TwoPole:
             - TwoZero
             - APF
@@ -1103,7 +1103,7 @@ Object:
           - FreeVerb
           - WaveLoss
           - RLPF:
-            - RHPF
+              RHPF
           - MidEQ
           - Changed
           - VarLag
@@ -1113,17 +1113,17 @@ Object:
             - BPZ2
           - Resonz
           - LPZ1:
-            - HPZ1
+              HPZ1
           - FOS
           - InsideOut
           - MedianTriggered
           - Formlet
           - GlitchRHPF
           - BPF:
-            - BRF
+              BRF
           - CircleRamp
           - LPF:
-            - HPF
+              HPF
           - Decay2
           - SOS
           - LagUD:
@@ -1131,7 +1131,7 @@ Object:
             - Lag3UD
           - Decay
           - OnePole:
-            - OneZero
+              OneZero
           - Integrator
           - Ringz
           - LeakDC
@@ -1205,7 +1205,7 @@ Object:
       - Poll
       - DWGPlucked2
       - Gendy4:
-        - Gendy5
+          Gendy5
       - StkSaxofony
       - FFTCentroid
       - DWGBowedTor
@@ -1251,7 +1251,7 @@ Object:
         - Allpass1
         - RMShelf2
         - RMEQ:
-          - RegaliaMitraEQ
+            RegaliaMitraEQ
       - Sanitize
       - Sum4
       - DoubleWell3
@@ -1265,7 +1265,7 @@ Object:
         - LFBrownNoise2
         - LFBrownNoise1
       - PV_SoftWipe:
-        - PV_Cutoff
+          PV_Cutoff
       - TWindex
       - IEnvGen
       - KeyState
@@ -1274,14 +1274,14 @@ Object:
       - Balance
       - Gendy2
       - PulseCount:
-        - SetResetFF
+          SetResetFF
       - MulAdd
       - EnvFollow
       - HenonTrig
       - AnalogIn
       - PV_MagGate
       - Latch:
-        - Gate
+          Gate
       - SoftClipAmp8
       - LorenzTrig
       - CrossoverDistortion
@@ -1355,7 +1355,7 @@ Object:
       - Pseries
       - Pfunc
       - Pstep:
-        - Pseg
+          Pseg
       - Plorenz
       - Pevent
       - Pstep3add
@@ -1366,16 +1366,16 @@ Object:
       - Pquad
       - Pchain
       - PstepNfunc:
-        - PstepNadd
+          PstepNadd
       - Punop
       - Pprob
       - Pbrown:
-        - Pgbrown
+          Pgbrown
       - Ppoisson
       - Spawner
       - Pget
       - Pmono:
-        - PmonoArtic
+          PmonoArtic
       - Pkey
       - PbindProxy
       - FilterPattern:
@@ -1398,19 +1398,19 @@ Object:
           - Psym1
           - Ptsym
           - Pnsym:
-            - Pnsym1
+              Pnsym1
         - Prorate
         - Pstretch:
-          - Pstretchp
+            Pstretchp
         - Pfin:
-          - Pfinval
+            Pfinval
         - Pfindur
         - PfadeIn:
-          - PfadeOut
+            PfadeOut
         - Pavaroh
         - Pdrop
         - Pclump:
-          - Pflatten
+            Pflatten
         - Pwrap
         - Pdup:
           - Psubdivide
@@ -1433,10 +1433,10 @@ Object:
           - PparGroup
           - Pgroup
         - Pn:
-          - Pgate
+            Pgate
         - Pspawn
         - Pfx:
-          - Pfxb
+            Pfxb
         - Pconst
       - Pcauchy
       - Pdict
@@ -1446,14 +1446,14 @@ Object:
         - TaskProxy:
           - Tdef
           - EventPatternProxy:
-            - Pdef:
-              - Pbindef
+              Pdef:
+                Pbindef
       - Phenon
       - Pbeta
       - Pgauss
       - Penvir
       - Pnaryop:
-        - PdegreeToKey
+          PdegreeToKey
       - Ptime
       - Pbind
       - Pproto
@@ -1461,7 +1461,7 @@ Object:
         - Pwalk
         - Ppar:
           - Pgpar:
-            - Pgtpar
+              Pgtpar
           - Ptpar
         - Pwrand
         - Pdfsm
@@ -1477,7 +1477,7 @@ Object:
         - Pxrand
         - Pfsm
       - Pswitch:
-        - Pswitch1
+          Pswitch1
       - Pbinop
       - Pfhn
       - Pwhite:
@@ -1492,32 +1492,32 @@ Object:
       - Pgbman
       - PlinCong
       - Prout:
-        - Pspawner
+          Pspawner
       - Plet
       - Plazy:
-        - PlazyEnvir:
-          - PlazyEnvirN
+          PlazyEnvir:
+            PlazyEnvirN
     - BinaryOpFunction:
-      - BinaryOpFunctionProxy
+        BinaryOpFunctionProxy
     - Operand:
-      - Rest
+        Rest
     - NAryOpFunction:
-      - NAryOpFunctionProxy:
-        - NAryValueProxy
+        NAryOpFunctionProxy:
+          NAryValueProxy
     - BusPlug:
-      - NodeProxy:
-        - Ndef
+        NodeProxy:
+          Ndef
     - Ref:
       - RefCopy
       - Maybe:
-        - Fdef
+          Fdef
     - FunctionList
     - Function
     - Stream:
       - EmbedOnce
       - OneShotStream
       - PmonoStream:
-        - PmonoArticStream
+          PmonoArticStream
       - FileReader:
         - SemiColonFileReader
         - CSVFileReader
@@ -1527,11 +1527,11 @@ Object:
       - IOStream:
         - Pretty
         - CollStream:
-          - LimitedWriteStream
+            LimitedWriteStream
         - UnixFILE:
           - Pipe
           - File:
-            - AtsFile
+              AtsFile
       - NAryOpStream
       - FuncStream
       - BinaryOpStream
@@ -1541,43 +1541,43 @@ Object:
       - CleanupStream
       - StreamClutch
       - Thread:
-        - Routine:
-          - FuncStreamAsRoutine
+          Routine:
+            FuncStreamAsRoutine
   - Interpreter
   - Process:
-    - Main
+      Main
   - Frame
   - FunctionDef:
-    - Method
+      Method
   - Collection:
     - Set:
       - Dictionary:
-        - IdentityDictionary:
+          IdentityDictionary:
           - Environment:
-            - Event
+              Event
           - NodeMap:
-            - ProxyNodeMap
+              ProxyNodeMap
       - IdentitySet:
-        - OrderedIdentitySet
+          OrderedIdentitySet
     - Range
     - MultiLevelIdentityDictionary:
-      - LibraryBase:
+        LibraryBase:
         - Archive
         - Library
     - Interval
     - TwoWayIdentityDictionary:
-      - ObjectTable
+        ObjectTable
     - Array2D
     - Pair
     - Bag:
-      - IdentityBag
+        IdentityBag
     - SequenceableCollection:
       - RingBuffer
       - LinkedList
       - Order:
-        - SparseArray
+          SparseArray
       - List:
-        - SortedList
+          SortedList
       - ArrayedCollection:
         - RawArray:
           - DoubleArray
@@ -1591,9 +1591,9 @@ Object:
           - Int8Array
         - Array
   - Class:
-    - Meta_Object:
+      Meta_Object:
       - Meta_HighShelf:
-        - Meta_RBJHighShelf
+          Meta_RBJHighShelf
       - Meta_FlowVar
       - Meta_ZLPF
       - Meta_Condition
@@ -1638,7 +1638,7 @@ Object:
       - Meta_LRUNumberAllocator
       - Meta_Color
       - Meta_Image:
-        - Meta_QImage
+          Meta_QImage
       - Meta_HIDInfo
       - Meta_HIDProto
       - Meta_BtoUHJ
@@ -1648,7 +1648,7 @@ Object:
       - Meta_WarpOverlap
       - Meta_SCDocHTMLRenderer
       - Meta_DrawGridX:
-        - Meta_DrawGridY
+          Meta_DrawGridY
       - Meta_EventTypesWithCleanup
       - Meta_MIDIClient
       - Meta_Monitor
@@ -1661,13 +1661,13 @@ Object:
         - Meta_SystemClock
       - Meta_CheapVerb
       - Meta_Point:
-        - Meta_PointArray
+          Meta_PointArray
       - Meta_MIDIOut
       - Meta_Env:
-        - Meta_Penv
+          Meta_Penv
       - Meta_Decorator:
-        - Meta_FlowLayout:
-          - Meta_FlowViewLayout
+          Meta_FlowLayout:
+            Meta_FlowViewLayout
       - Meta_NamedControl
       - Meta_EventStreamCleanup
       - Meta_ControlName
@@ -1700,34 +1700,34 @@ Object:
       - Meta_QtGUI
       - Meta_ServerStatusWatcher
       - Meta_UnitTest:
-        - Meta_UnitTestScript
+          Meta_UnitTestScript
       - Meta_SoundFile
       - Meta_PrettyState:
         - Meta_PrettyEat
         - Meta_PrettyEcho
       - Meta_BFGVerb
       - Meta_Server:
-        - Meta_ScoreStreamPlayer
+          Meta_ScoreStreamPlayer
       - Meta_ServerOptions:
-        - Meta_BelaServerOptions
+          Meta_BelaServerOptions
       - Meta_Font:
-        - Meta_QFont
+          Meta_QFont
       - Meta_AbstractResponderFunc:
         - Meta_OSCFunc:
-          - Meta_OSCdef
+            Meta_OSCdef
         - Meta_HIDFunc:
-          - Meta_HIDdef
+            Meta_HIDdef
         - Meta_MIDIFunc:
-          - Meta_MIDIdef
+            Meta_MIDIdef
       - Meta_BLowPass4
       - Meta_AbstractMDPlugin:
-        - Meta_TextArchiveMDPlugin
+          Meta_TextArchiveMDPlugin
       - Meta_PointSource
       - Meta_BHiPass4
       - Meta_VocodeBand
       - Meta_PathName
       - Meta_LowShelf:
-        - Meta_RBJLowShelf
+          Meta_RBJLowShelf
       - Meta_SCDocNode
       - Meta_Quark
       - Meta_Git
@@ -1739,11 +1739,11 @@ Object:
         - Meta_BlankGridLines
       - Meta_PowerOfTwoBlock
       - Meta_Spec:
-        - Meta_ControlSpec
+          Meta_ControlSpec
       - Meta_QAlignment
       - Meta_Feedback
       - Meta_TreeViewItem:
-        - Meta_QTreeViewItem
+          Meta_QTreeViewItem
       - Meta_MIDIEvent
       - Meta_UHJtoB
       - Meta_BFDecode
@@ -1767,7 +1767,7 @@ Object:
       - Meta_GraphBuilder
       - Meta_StkBowedI
       - Meta_AbstractNodeWatcher:
-        - Meta_BasicNodeWatcher:
+          Meta_BasicNodeWatcher:
           - Meta_NodeWatcher
           - Meta_DebugNodeWatcher
       - Meta_SerialPort
@@ -1775,15 +1775,15 @@ Object:
       - Meta_ServerMeter
       - Meta_PMOsc
       - Meta_AbstractDispatcher:
-        - Meta_AbstractWrappingDispatcher:
+          Meta_AbstractWrappingDispatcher:
           - Meta_OSCMessageDispatcher:
-            - Meta_OSCMessagePatternDispatcher
+              Meta_OSCMessagePatternDispatcher
           - Meta_HIDUsageDispatcher:
             - Meta_HIDElementDispatcher
             - Meta_HIDDeviceDispatcher
           - Meta_MIDIMessageDispatcher:
             - Meta_MIDISysexDispatcher:
-              - Meta_MIDIMTCtoSMPTEDispatcher
+                Meta_MIDIMTCtoSMPTEDispatcher
             - Meta_MIDIMessageDispatcherNV
             - Meta_MIDISysDataDispatcher:
               - Meta_MIDISysNoDataDispatcher
@@ -1792,13 +1792,13 @@ Object:
       - Meta_QMetaObject
       - Meta_OSCresponder:
         - Meta_OSCMultiResponder:
-          - Meta_OSCpathDispatcher
+            Meta_OSCpathDispatcher
         - Meta_OSCpathResponder
         - Meta_OSCresponderNode
       - Meta_GridLines
       - Meta_QToolButtonStyle
       - Meta_NetAddr:
-        - Meta_BundleNetAddr
+          Meta_BundleNetAddr
       - Meta_ReadableNodeIDAllocator
       - Meta_AbstractSystemAction:
         - Meta_OnError
@@ -1812,7 +1812,7 @@ Object:
       - Meta_PriorityQueue
       - Meta_Vocode
       - Meta_Pen:
-        - Meta_QPen
+          Meta_QPen
       - Meta_ServerMeterView
       - Meta_HIDElement
       - Meta_SlotInspector
@@ -1830,22 +1830,22 @@ Object:
       - Meta_SCViewHolder:
         - Meta_FlowView
         - Meta_ObjectGui:
-          - Meta_StringGui
+            Meta_StringGui
       - Meta_Plot
       - Meta_Document
       - Meta_BHPF
       - Meta_TapN
       - Meta_VBAPSpeakerSet
       - Meta_Platform:
-        - Meta_UnixPlatform:
-          - Meta_LinuxPlatform
+          Meta_UnixPlatform:
+            Meta_LinuxPlatform
       - Meta_BBlockerProgram
       - Meta_Date
       - Meta_FreqScope:
         - Meta_PlusFreqScopeWindow
         - Meta_FreqScopeWindow
       - Meta_Notch:
-        - Meta_RBJNotch
+          Meta_RBJNotch
       - Meta_FreeVerb1
       - Meta_QMenuRole
       - Meta_Message
@@ -1856,8 +1856,8 @@ Object:
       - Meta_SkipJack
       - Meta_BF
       - Meta_OSCBundle:
-        - Meta_MixedBundle:
-          - Meta_MixedBundleTester
+          Meta_MixedBundle:
+            Meta_MixedBundleTester
       - Meta_QCurve
       - Meta_AbstractMessageMatcher:
         - Meta_OSCArgsMatcher
@@ -1881,16 +1881,16 @@ Object:
       - Meta_NumChannels
       - Meta_URI
       - Meta_Dialog:
-        - Meta_QDialog
+          Meta_QDialog
       - Meta_QColorRole
       - Meta_QObject:
         - Meta_FileDialog:
-          - Meta_QFileDialog
+            Meta_QFileDialog
         - Meta_Download
         - Meta_ScrollCanvas:
           - Meta_QScrollCanvas
           - Meta_TopScrollWidget:
-            - Meta_QTopScrollWidget
+              Meta_QTopScrollWidget
         - Meta_QCallback
         - Meta_AbstractMenuAction:
           - Meta_MenuAction
@@ -1898,115 +1898,115 @@ Object:
         - Meta_QPenPrinter
         - Meta_Layout:
           - Meta_GridLayout:
-            - Meta_QGridLayout
+              Meta_QGridLayout
           - Meta_LineLayout:
             - Meta_QLineLayout
             - Meta_VLayout:
-              - Meta_QVLayout
+                Meta_QVLayout
             - Meta_HLayout:
-              - Meta_QHLayout
+                Meta_QHLayout
           - Meta_QLayout
           - Meta_StackLayout:
-            - Meta_QStackLayout
+              Meta_QStackLayout
         - Meta_View:
           - Meta_Button:
-            - Meta_QButton
+              Meta_QButton
           - Meta_EnvelopeView:
-            - Meta_QEnvelopeView
+              Meta_QEnvelopeView
           - Meta_MultiSliderView:
-            - Meta_QMultiSliderView
+              Meta_QMultiSliderView
           - Meta_TreeView:
-            - Meta_QTreeView
+              Meta_QTreeView
           - Meta_VLayoutView:
-            - Meta_QVLayoutView
+              Meta_QVLayoutView
           - Meta_CheckBox:
-            - Meta_QCheckBox
+              Meta_QCheckBox
           - Meta_SCScope:
-            - Meta_QScope
+              Meta_QScope
           - Meta_QuartzComposerView:
-            - Meta_QQuartzComposerView
+              Meta_QQuartzComposerView
           - Meta_SoundFileView:
-            - Meta_QSoundFileView
+              Meta_QSoundFileView
           - Meta_CompositeView
           - Meta_TopView:
-            - Meta_QTopView
+              Meta_QTopView
           - Meta_WebView:
-            - Meta_QWebView
+              Meta_QWebView
           - Meta_UserView:
-            - Meta_QUserView
+              Meta_QUserView
           - Meta_TextViewBase:
             - Meta_TextField:
               - Meta_DragView:
                 - Meta_DragSource:
-                  - Meta_QDragSource
+                    Meta_QDragSource
                 - Meta_DragSink:
                   - Meta_QDragSink
                   - Meta_DragBoth:
-                    - Meta_QDragBoth
+                      Meta_QDragBoth
                 - Meta_QDragView
               - Meta_QTextField
             - Meta_QTextViewBase
             - Meta_StaticText:
-              - Meta_QStaticText
+                Meta_QStaticText
           - Meta_AbstractScroll:
             - Meta_ScrollView:
               - Meta_QScrollView
               - Meta_ScrollTopView:
-                - Meta_QScrollTopView
+                  Meta_QScrollTopView
             - Meta_QAbstractScroll:
-              - Meta_TextView:
-                - Meta_QTextView
+                Meta_TextView:
+                  Meta_QTextView
           - Meta_ItemViewBase:
             - Meta_ListView:
-              - Meta_QListView
+                Meta_QListView
             - Meta_PopUpMenu:
-              - Meta_QPopUpMenu
+                Meta_QPopUpMenu
             - Meta_QItemViewBase
           - Meta_QView
           - Meta_AbstractStepValue:
-            - Meta_QAbstractStepValue:
+              Meta_QAbstractStepValue:
               - Meta_Knob:
-                - Meta_QKnob
+                  Meta_QKnob
               - Meta_RangeSlider:
-                - Meta_QRangeSlider
+                  Meta_QRangeSlider
               - Meta_NumberBox:
-                - Meta_QNumberBox
+                  Meta_QNumberBox
               - Meta_Slider:
-                - Meta_QSlider
+                  Meta_QSlider
               - Meta_Slider2D:
-                - Meta_QSlider2D
+                  Meta_QSlider2D
           - Meta_ScopeView:
             - Meta_Scope2
             - Meta_QScope2
           - Meta_HLayoutView:
-            - Meta_QHLayoutView
+              Meta_QHLayoutView
           - Meta_LevelIndicator:
-            - Meta_QLevelIndicator
+              Meta_QLevelIndicator
           - Meta_AbstractActionView:
             - Meta_Menu
             - Meta_ToolBar
       - Meta_Window:
-        - Meta_QWindow
+          Meta_QWindow
       - Meta_Speakers
       - Meta_EnvironmentRedirect:
-        - Meta_LazyEnvir:
-          - Meta_ProxySpace
+          Meta_LazyEnvir:
+            Meta_ProxySpace
       - Meta_Node:
         - Meta_AbstractGroup:
           - Meta_Group:
-            - Meta_RootNode
+              Meta_RootNode
           - Meta_ParGroup
         - Meta_Synth
       - Meta_BLPF
       - Meta_NotificationRegistration
       - Meta_GUI
       - Meta_SelectX:
-        - Meta_LinSelectX
+          Meta_LinSelectX
       - Meta_LRLPF
       - Meta_SimpleController
       - Meta_Exception:
-        - Meta_Error:
-          - Meta_MethodError:
+          Meta_Error:
+            Meta_MethodError:
             - Meta_MustBeBooleanError
             - Meta_ImmutableError
             - Meta_NotYetImplementedError
@@ -2016,19 +2016,19 @@ Object:
             - Meta_PrimitiveFailedError
             - Meta_SubclassResponsibilityError
             - Meta_DoesNotUnderstandError:
-              - Meta_BinaryOpFailureError
+                Meta_BinaryOpFailureError
       - Meta_VBAPSpeakerArray
       - Meta_PatternConductor
       - Meta_Vocoder
       - Meta_AbstractPlayControl:
         - Meta_SynthControl:
-          - Meta_SynthDefControl
+            Meta_SynthDefControl
         - Meta_StreamControl:
-          - Meta_PatternControl
+            Meta_PatternControl
       - Meta_StackNumberAllocator
       - Meta_BhobLoShelf
       - Meta_Scale:
-        - Meta_ScaleAD
+          Meta_ScaleAD
       - Meta_QWebFontFamily
       - Meta_JITGui:
         - Meta_NdefGui
@@ -2042,9 +2042,9 @@ Object:
           - Meta_TdefGui
           - Meta_PdefGui
         - Meta_EnvirGui:
-          - Meta_NdefParamGui
+            Meta_NdefParamGui
         - Meta_ProxyMixer:
-          - Meta_NdefMixer
+            Meta_NdefMixer
         - Meta_HistoryGui
       - Meta_QLevelIndicatorStyle
       - Meta_QColorGroup
@@ -2072,12 +2072,12 @@ Object:
         - Meta_CCResponder
         - Meta_ProgramChangeResponder
         - Meta_NoteOnResponder:
-          - Meta_NoteOffResponder
+            Meta_NoteOffResponder
         - Meta_TouchResponder:
-          - Meta_BendResponder
+            Meta_BendResponder
       - Meta_MethodOverride
       - Meta_SoundIn:
-        - Meta_AudioIn
+          Meta_AudioIn
       - Meta_ScIDE
       - Meta_Rect
       - Meta_UniqueID
@@ -2090,7 +2090,7 @@ Object:
       - Meta_Help
       - Meta_VolumeGui
       - Meta_Stethoscope:
-        - Meta_QStethoscope
+          Meta_QStethoscope
       - Meta_Mix
       - Meta_HID
       - Meta_Buffer
@@ -2128,7 +2128,7 @@ Object:
           - Meta_UGenThunk
           - Meta_CallOnce
         - Meta_UnaryOpFunction:
-          - Meta_UnaryOpFunctionProxy
+            Meta_UnaryOpFunctionProxy
         - Meta_UGen:
           - Meta_Line
           - Meta_PV_XFade
@@ -2192,10 +2192,10 @@ Object:
                 - Meta_PV_NoiseSynthF
                 - Meta_PV_PartialSynthP
               - Meta_PV_OddBin:
-                - Meta_PV_EvenBin
+                  Meta_PV_EvenBin
               - Meta_PV_MagExp
               - Meta_Cepstrum:
-                - Meta_ICepstrum
+                  Meta_ICepstrum
               - Meta_PV_Invert
               - Meta_PV_MagSmooth
               - Meta_PV_MagMap
@@ -2204,7 +2204,7 @@ Object:
               - Meta_PV_BinWipe
               - Meta_PV_SpectralMap
               - Meta_PV_MaxMagN:
-                - Meta_PV_MinMagN
+                  Meta_PV_MinMagN
               - Meta_PV_RandComb
               - Meta_PV_MagSquared:
                 - Meta_PV_PhaseShift270
@@ -2214,7 +2214,7 @@ Object:
               - Meta_PV_MagSmear
               - Meta_PackFFT
               - Meta_PV_MagBuffer:
-                - Meta_PV_FreqBuffer
+                  Meta_PV_FreqBuffer
               - Meta_PV_RectComb2
               - Meta_PV_PhaseShift
               - Meta_PV_MagMulAdd
@@ -2237,7 +2237,7 @@ Object:
             - Meta_IFFT
           - Meta_Squiz
           - Meta_MostChange:
-            - Meta_LeastChange
+              Meta_LeastChange
           - Meta_SLOnset
           - Meta_SplayAz
           - Meta_StkFlute
@@ -2282,7 +2282,7 @@ Object:
             - Meta_NumAudioBuses
             - Meta_NumOutputBuses
           - Meta_PV_CommonMag:
-            - Meta_PV_CommonMul
+              Meta_PV_CommonMul
           - Meta_FFTFluxPos
           - Meta_MoogLadder
           - Meta_Clipper32
@@ -2316,7 +2316,7 @@ Object:
           - Meta_DUGen:
             - Meta_Dreset
             - Meta_MultiOutDemandUGen:
-              - Meta_Dneuromodule
+                Meta_Dneuromodule
             - Meta_ListDUGen:
               - Meta_Drand
               - Meta_Dser
@@ -2324,10 +2324,10 @@ Object:
               - Meta_Dshuf
               - Meta_Dxrand
             - Meta_Dbrown:
-              - Meta_Dibrown
+                Meta_Dibrown
             - Meta_Dseries
             - Meta_Dwhite:
-              - Meta_Diwhite
+                Meta_Diwhite
             - Meta_Dbufrd
             - Meta_Dfsm
             - Meta_Dbufwr
@@ -2338,10 +2338,10 @@ Object:
             - Meta_DetaBlockerBuf
             - Meta_Dconst
             - Meta_Dswitch1:
-              - Meta_Dswitch
+                Meta_Dswitch
             - Meta_Dpoll
             - Meta_DbufTag:
-              - Meta_Dtag
+                Meta_Dtag
             - Meta_Dgeom
           - Meta_Spring
           - Meta_PeakEQ4
@@ -2354,7 +2354,7 @@ Object:
             - Meta_DoubleNestedAllpassC
             - Meta_DoubleNestedAllpassL
           - Meta_Normalizer:
-            - Meta_Limiter
+              Meta_Limiter
           - Meta_Dgauss
           - Meta_PauseSelfWhenDone
           - Meta_SortBuf
@@ -2379,7 +2379,7 @@ Object:
           - Meta_ScopeOut2
           - Meta_FFTPhaseDev
           - Meta_SendTrig:
-            - Meta_SendReply
+              Meta_SendReply
           - Meta_LastValue
           - Meta_FreqShift
           - Meta_BufInfoUGenBase:
@@ -2394,7 +2394,7 @@ Object:
             - Meta_Latoocarfian2DC
           - Meta_TExpRand
           - Meta_MCLDChaosGen:
-            - Meta_RosslerResL
+              Meta_RosslerResL
           - Meta_ZeroCrossing
           - Meta_OSWrap8
           - Meta_Dunique
@@ -2410,7 +2410,7 @@ Object:
           - Meta_Concat2
           - Meta_PauseSelf
           - Meta_Duty:
-            - Meta_TDuty
+              Meta_TDuty
           - Meta_FFTMKL
           - Meta_LFNoise0:
             - Meta_LFNoise1
@@ -2438,7 +2438,7 @@ Object:
           - Meta_WalshHadamard
           - Meta_EnvDetect
           - Meta_MouseX:
-            - Meta_MouseY
+              Meta_MouseY
           - Meta_MultiOutUGen:
             - Meta_JPverbRaw
             - Meta_WarpZ
@@ -2453,12 +2453,12 @@ Object:
             - Meta_MFCC
             - Meta_AttackSlope
             - Meta_JoshMultiChannelGrain:
-              - Meta_MonoGrainBF
+                Meta_MonoGrainBF
             - Meta_LADSPA
             - Meta_PureMultiOutUGen:
-              - Meta_DC
+                Meta_DC
             - Meta_ArrayMax:
-              - Meta_ArrayMin
+                Meta_ArrayMin
             - Meta_BeatTrack
             - Meta_CQ_Diff
             - Meta_PanAz
@@ -2531,7 +2531,7 @@ Object:
               - Meta_Tumble
               - Meta_B2A
             - Meta_Pan2:
-              - Meta_LinPan2
+                Meta_LinPan2
             - Meta_LPCVals
             - Meta_PlayBuf
             - Meta_GrainSinJ
@@ -2548,7 +2548,7 @@ Object:
             - Meta_Rotate2
             - Meta_SpectralEntropy
             - Meta_BufMax:
-              - Meta_BufMin
+                Meta_BufMin
             - Meta_PanX
             - Meta_DecodeB2
             - Meta_Pan4
@@ -2583,7 +2583,7 @@ Object:
               - Meta_FBSineL
               - Meta_FBSineC
             - Meta_CuspN:
-              - Meta_CuspL
+                Meta_CuspL
             - Meta_QuadN:
               - Meta_QuadL
               - Meta_QuadC
@@ -2592,9 +2592,9 @@ Object:
               - Meta_LinCongL
             - Meta_LorenzL
             - Meta_StandardN:
-              - Meta_StandardL
+                Meta_StandardL
             - Meta_GbmanN:
-              - Meta_GbmanL
+                Meta_GbmanL
           - Meta_WaveletDaub
           - Meta_Max
           - Meta_DWGPluckedStiff
@@ -2623,7 +2623,7 @@ Object:
           - Meta_DPW4Saw
           - Meta_Loudness
           - Meta_MembraneCircle:
-            - Meta_MembraneHexagon
+              Meta_MembraneHexagon
           - Meta_DoubleWell
           - Meta_OnsetsDS
           - Meta_GbmanTrig
@@ -2644,14 +2644,14 @@ Object:
           - Meta_PureUGen:
             - Meta_DegreeToKey
             - Meta_AmpComp:
-              - Meta_AmpCompA
+                Meta_AmpCompA
             - Meta_LFPulse
             - Meta_LinExp
             - Meta_Formant
             - Meta_VOsc
             - Meta_Impulse
             - Meta_K2A:
-              - Meta_T2A
+                Meta_T2A
             - Meta_Select
             - Meta_SyncSaw
             - Meta_COsc
@@ -2667,7 +2667,7 @@ Object:
               - Meta_FoldIndex
               - Meta_Shaper
             - Meta_A2K:
-              - Meta_T2K
+                Meta_T2K
             - Meta_DelayN:
               - Meta_DelayL
               - Meta_DelayC
@@ -2675,14 +2675,14 @@ Object:
             - Meta_SinOsc
             - Meta_Osc
             - Meta_Delay1:
-              - Meta_Delay2
+                Meta_Delay2
             - Meta_Filter:
               - Meta_MoogFF
               - Meta_Median
               - Meta_GlitchHPF
               - Meta_Slew
               - Meta_GlitchBPF:
-                - Meta_GlitchBRF
+                  Meta_GlitchBRF
               - Meta_TwoPole:
                 - Meta_TwoZero
                 - Meta_APF
@@ -2696,7 +2696,7 @@ Object:
               - Meta_FreeVerb
               - Meta_WaveLoss
               - Meta_RLPF:
-                - Meta_RHPF
+                  Meta_RHPF
               - Meta_MidEQ
               - Meta_Changed
               - Meta_VarLag
@@ -2706,17 +2706,17 @@ Object:
                 - Meta_BPZ2
               - Meta_Resonz
               - Meta_LPZ1:
-                - Meta_HPZ1
+                  Meta_HPZ1
               - Meta_FOS
               - Meta_InsideOut
               - Meta_MedianTriggered
               - Meta_Formlet
               - Meta_GlitchRHPF
               - Meta_BPF:
-                - Meta_BRF
+                  Meta_BRF
               - Meta_CircleRamp
               - Meta_LPF:
-                - Meta_HPF
+                  Meta_HPF
               - Meta_Decay2
               - Meta_SOS
               - Meta_LagUD:
@@ -2724,7 +2724,7 @@ Object:
                 - Meta_Lag3UD
               - Meta_Decay
               - Meta_OnePole:
-                - Meta_OneZero
+                  Meta_OneZero
               - Meta_Integrator
               - Meta_Ringz
               - Meta_LeakDC
@@ -2798,7 +2798,7 @@ Object:
           - Meta_Poll
           - Meta_DWGPlucked2
           - Meta_Gendy4:
-            - Meta_Gendy5
+              Meta_Gendy5
           - Meta_StkSaxofony
           - Meta_FFTCentroid
           - Meta_DWGBowedTor
@@ -2844,7 +2844,7 @@ Object:
             - Meta_Allpass1
             - Meta_RMShelf2
             - Meta_RMEQ:
-              - Meta_RegaliaMitraEQ
+                Meta_RegaliaMitraEQ
           - Meta_Sanitize
           - Meta_Sum4
           - Meta_DoubleWell3
@@ -2858,7 +2858,7 @@ Object:
             - Meta_LFBrownNoise2
             - Meta_LFBrownNoise1
           - Meta_PV_SoftWipe:
-            - Meta_PV_Cutoff
+              Meta_PV_Cutoff
           - Meta_TWindex
           - Meta_IEnvGen
           - Meta_KeyState
@@ -2867,14 +2867,14 @@ Object:
           - Meta_Balance
           - Meta_Gendy2
           - Meta_PulseCount:
-            - Meta_SetResetFF
+              Meta_SetResetFF
           - Meta_MulAdd
           - Meta_EnvFollow
           - Meta_HenonTrig
           - Meta_AnalogIn
           - Meta_PV_MagGate
           - Meta_Latch:
-            - Meta_Gate
+              Meta_Gate
           - Meta_SoftClipAmp8
           - Meta_LorenzTrig
           - Meta_CrossoverDistortion
@@ -2948,7 +2948,7 @@ Object:
           - Meta_Pseries
           - Meta_Pfunc
           - Meta_Pstep:
-            - Meta_Pseg
+              Meta_Pseg
           - Meta_Plorenz
           - Meta_Pevent
           - Meta_Pstep3add
@@ -2959,16 +2959,16 @@ Object:
           - Meta_Pquad
           - Meta_Pchain
           - Meta_PstepNfunc:
-            - Meta_PstepNadd
+              Meta_PstepNadd
           - Meta_Punop
           - Meta_Pprob
           - Meta_Pbrown:
-            - Meta_Pgbrown
+              Meta_Pgbrown
           - Meta_Ppoisson
           - Meta_Spawner
           - Meta_Pget
           - Meta_Pmono:
-            - Meta_PmonoArtic
+              Meta_PmonoArtic
           - Meta_Pkey
           - Meta_PbindProxy
           - Meta_FilterPattern:
@@ -2991,19 +2991,19 @@ Object:
               - Meta_Psym1
               - Meta_Ptsym
               - Meta_Pnsym:
-                - Meta_Pnsym1
+                  Meta_Pnsym1
             - Meta_Prorate
             - Meta_Pstretch:
-              - Meta_Pstretchp
+                Meta_Pstretchp
             - Meta_Pfin:
-              - Meta_Pfinval
+                Meta_Pfinval
             - Meta_Pfindur
             - Meta_PfadeIn:
-              - Meta_PfadeOut
+                Meta_PfadeOut
             - Meta_Pavaroh
             - Meta_Pdrop
             - Meta_Pclump:
-              - Meta_Pflatten
+                Meta_Pflatten
             - Meta_Pwrap
             - Meta_Pdup:
               - Meta_Psubdivide
@@ -3026,10 +3026,10 @@ Object:
               - Meta_PparGroup
               - Meta_Pgroup
             - Meta_Pn:
-              - Meta_Pgate
+                Meta_Pgate
             - Meta_Pspawn
             - Meta_Pfx:
-              - Meta_Pfxb
+                Meta_Pfxb
             - Meta_Pconst
           - Meta_Pcauchy
           - Meta_Pdict
@@ -3039,14 +3039,14 @@ Object:
             - Meta_TaskProxy:
               - Meta_Tdef
               - Meta_EventPatternProxy:
-                - Meta_Pdef:
-                  - Meta_Pbindef
+                  Meta_Pdef:
+                    Meta_Pbindef
           - Meta_Phenon
           - Meta_Pbeta
           - Meta_Pgauss
           - Meta_Penvir
           - Meta_Pnaryop:
-            - Meta_PdegreeToKey
+              Meta_PdegreeToKey
           - Meta_Ptime
           - Meta_Pbind
           - Meta_Pproto
@@ -3054,7 +3054,7 @@ Object:
             - Meta_Pwalk
             - Meta_Ppar:
               - Meta_Pgpar:
-                - Meta_Pgtpar
+                  Meta_Pgtpar
               - Meta_Ptpar
             - Meta_Pwrand
             - Meta_Pdfsm
@@ -3070,7 +3070,7 @@ Object:
             - Meta_Pxrand
             - Meta_Pfsm
           - Meta_Pswitch:
-            - Meta_Pswitch1
+              Meta_Pswitch1
           - Meta_Pbinop
           - Meta_Pfhn
           - Meta_Pwhite:
@@ -3085,32 +3085,32 @@ Object:
           - Meta_Pgbman
           - Meta_PlinCong
           - Meta_Prout:
-            - Meta_Pspawner
+              Meta_Pspawner
           - Meta_Plet
           - Meta_Plazy:
-            - Meta_PlazyEnvir:
-              - Meta_PlazyEnvirN
+              Meta_PlazyEnvir:
+                Meta_PlazyEnvirN
         - Meta_BinaryOpFunction:
-          - Meta_BinaryOpFunctionProxy
+            Meta_BinaryOpFunctionProxy
         - Meta_Operand:
-          - Meta_Rest
+            Meta_Rest
         - Meta_NAryOpFunction:
-          - Meta_NAryOpFunctionProxy:
-            - Meta_NAryValueProxy
+            Meta_NAryOpFunctionProxy:
+              Meta_NAryValueProxy
         - Meta_BusPlug:
-          - Meta_NodeProxy:
-            - Meta_Ndef
+            Meta_NodeProxy:
+              Meta_Ndef
         - Meta_Ref:
           - Meta_RefCopy
           - Meta_Maybe:
-            - Meta_Fdef
+              Meta_Fdef
         - Meta_FunctionList
         - Meta_Function
         - Meta_Stream:
           - Meta_EmbedOnce
           - Meta_OneShotStream
           - Meta_PmonoStream:
-            - Meta_PmonoArticStream
+              Meta_PmonoArticStream
           - Meta_FileReader:
             - Meta_SemiColonFileReader
             - Meta_CSVFileReader
@@ -3120,11 +3120,11 @@ Object:
           - Meta_IOStream:
             - Meta_Pretty
             - Meta_CollStream:
-              - Meta_LimitedWriteStream
+                Meta_LimitedWriteStream
             - Meta_UnixFILE:
               - Meta_Pipe
               - Meta_File:
-                - Meta_AtsFile
+                  Meta_AtsFile
           - Meta_NAryOpStream
           - Meta_FuncStream
           - Meta_BinaryOpStream
@@ -3134,43 +3134,43 @@ Object:
           - Meta_CleanupStream
           - Meta_StreamClutch
           - Meta_Thread:
-            - Meta_Routine:
-              - Meta_FuncStreamAsRoutine
+              Meta_Routine:
+                Meta_FuncStreamAsRoutine
       - Meta_Interpreter
       - Meta_Process:
-        - Meta_Main
+          Meta_Main
       - Meta_Frame
       - Meta_FunctionDef:
-        - Meta_Method
+          Meta_Method
       - Meta_Collection:
         - Meta_Set:
           - Meta_Dictionary:
-            - Meta_IdentityDictionary:
+              Meta_IdentityDictionary:
               - Meta_Environment:
-                - Meta_Event
+                  Meta_Event
               - Meta_NodeMap:
-                - Meta_ProxyNodeMap
+                  Meta_ProxyNodeMap
           - Meta_IdentitySet:
-            - Meta_OrderedIdentitySet
+              Meta_OrderedIdentitySet
         - Meta_Range
         - Meta_MultiLevelIdentityDictionary:
-          - Meta_LibraryBase:
+            Meta_LibraryBase:
             - Meta_Archive
             - Meta_Library
         - Meta_Interval
         - Meta_TwoWayIdentityDictionary:
-          - Meta_ObjectTable
+            Meta_ObjectTable
         - Meta_Array2D
         - Meta_Pair
         - Meta_Bag:
-          - Meta_IdentityBag
+            Meta_IdentityBag
         - Meta_SequenceableCollection:
           - Meta_RingBuffer
           - Meta_LinkedList
           - Meta_Order:
-            - Meta_SparseArray
+              Meta_SparseArray
           - Meta_List:
-            - Meta_SortedList
+              Meta_SortedList
           - Meta_ArrayedCollection:
             - Meta_RawArray:
               - Meta_DoubleArray
