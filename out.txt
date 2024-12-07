@@ -1,0 +1,1663 @@
+Object
+[
+  HighShelf
+    [ RBJHighShelf ]
+  FlowVar
+  ZLPF
+  Condition
+  HelpBrowser
+  ClassBrowser
+  LIDSlot
+    [ LIDRelSlot LIDMscSlot LIDLedSlot LIDKeySlot LIDAbsSlot ]
+  BFEncode
+  QuarksGui
+  SynthDef
+    [ SynthDefOld ProxySynthDef ]
+  DrawGrid
+  Stk
+  QRenderProcessTerminationStatus
+  LIDGui
+  LIDInfo
+  Plotter
+  HIDUsage
+  Greyhole
+  Unix
+  XInFeedback
+  Reflections
+  BusScopeSynth
+  Scheduler
+  ZHPF
+  MethodQuote
+  TestDependant
+  QuarkDetailView
+  QWebAttribute
+  PowerOfTwoAllocator
+  LanguageConfig
+  FormantTable
+  CondVar
+  BelaScope
+  Score
+  MIDIEndPoint
+  LRUNumberAllocator
+  Color
+  Image
+    [ QImage ]
+  HIDInfo
+  HIDProto
+  BtoUHJ
+  Spkr
+  SystemSynthDefs
+  LIDAbsInfo
+  WarpOverlap
+  SCDocHTMLRenderer
+  DrawGridX
+    [ DrawGridY ]
+  EventTypesWithCleanup
+  MIDIClient
+  Monitor
+  LinLin
+  Clock
+  [
+    AppClock
+    TempoClock
+      [ TempoBusClock LinkClock ]
+    SystemClock
+  ]
+  CheapVerb
+  Point
+    [ PointArray ]
+  MIDIOut
+  Env
+    [ Penv ]
+  Decorator
+  [
+    FlowLayout
+      [ FlowViewLayout ]
+  ]
+  NamedControl
+  EventStreamCleanup
+  ControlName
+  Harmonics
+  SelectXFocus
+  AutoTrack
+  QOrientation
+  History
+  Inspector
+  [
+    ObjectInspector
+      [ MethodInspector StringInspector ClassInspector FunctionDefInspector ]
+    FrameInspector
+  ]
+  EZScroller
+  JPverb
+  Tuning
+  HIDCollection
+  EZGui
+  [
+    EZLists
+      [ EZListView EZPopUpMenu ]
+    EZNumber
+    EZKnob
+    EZSlider
+    EZRanger
+    EZText
+    EZControlSpecEditor
+  ]
+  QtGUI
+  ServerStatusWatcher
+  UnitTest
+    [ UnitTestScript ]
+  SoundFile
+  PrettyState
+    [ PrettyEat PrettyEcho ]
+  BFGVerb
+  Server
+    [ ScoreStreamPlayer ]
+  ServerOptions
+    [ BelaServerOptions ]
+  Font
+    [ QFont ]
+  AbstractResponderFunc
+  [
+    OSCFunc
+      [ OSCdef ]
+    HIDFunc
+      [ HIDdef ]
+    MIDIFunc
+      [ MIDIdef ]
+  ]
+  BLowPass4
+  AbstractMDPlugin
+    [ TextArchiveMDPlugin ]
+  PointSource
+  BHiPass4
+  VocodeBand
+  PathName
+  LowShelf
+    [ RBJLowShelf ]
+  SCDocNode
+  Quark
+  Git
+  LinkedListNode
+  UnitTestResult
+  AbstractGridLines
+    [ LinearGridLines ExponentialGridLines BlankGridLines ]
+  PowerOfTwoBlock
+  Spec
+    [ ControlSpec ]
+  QAlignment
+  Feedback
+  TreeViewItem
+    [ QTreeViewItem ]
+  MIDIEvent
+  UHJtoB
+  BFDecode
+  SplayZ
+  Quant
+  IODesc
+  XIn
+  NotificationCenter
+  NodeControl
+  FreqScopeView
+    [ PlusFreqScope PlusFreqScopeView ]
+  BhobHiShelf
+  BhobTone
+  NodeIDAllocator
+  QPalette
+  VBAPSpeaker
+  QKeyModifiers
+  Phaser
+  SCDocEntry
+  GraphBuilder
+  StkBowedI
+  AbstractNodeWatcher
+  [
+    BasicNodeWatcher
+      [ NodeWatcher DebugNodeWatcher ]
+  ]
+  SerialPort
+  Gradient
+  ServerMeter
+  PMOsc
+  AbstractDispatcher
+  [
+    AbstractWrappingDispatcher
+    [
+      OSCMessageDispatcher
+        [ OSCMessagePatternDispatcher ]
+      HIDUsageDispatcher
+        [ HIDElementDispatcher HIDDeviceDispatcher ]
+      MIDIMessageDispatcher
+      [
+        MIDISysexDispatcher
+          [ MIDIMTCtoSMPTEDispatcher ]
+        MIDIMessageDispatcherNV
+        MIDISysDataDispatcher
+          [ MIDISysNoDataDispatcher MIDISysDataDropIndDispatcher ]
+      ]
+      HIDElementProtoDispatcher
+    ]
+  ]
+  QMetaObject
+  OSCresponder
+  [
+    OSCMultiResponder
+      [ OSCpathDispatcher ]
+    OSCpathResponder
+    OSCresponderNode
+  ]
+  GridLines
+  QToolButtonStyle
+  NetAddr
+    [ BundleNetAddr ]
+  ReadableNodeIDAllocator
+  AbstractSystemAction
+  [
+    OnError
+    AbstractServerAction
+      [ ServerQuit ServerBoot ServerTree ]
+    ShutDown
+    CmdPeriod
+    StartUp
+  ]
+  PriorityQueue
+  Vocode
+  Pen
+    [ QPen ]
+  ServerMeterView
+  HIDElement
+  SlotInspector
+  Warp
+  [
+    DbFaderWarp
+    ExponentialWarp
+    LinearWarp
+      [ SineWarp CosineWarp ]
+    FaderWarp
+    CurveWarp
+  ]
+  LID
+  QuarkRowView
+  PulseDPW
+  SCViewHolder
+  [
+    FlowView
+    ObjectGui
+      [ StringGui ]
+  ]
+  Plot
+  BHPF
+  TapN
+  VBAPSpeakerSet
+  Platform
+  [
+    UnixPlatform
+      [ LinuxPlatform ]
+  ]
+  BBlockerProgram
+  Date
+  FreqScope
+    [ PlusFreqScopeWindow FreqScopeWindow ]
+  Notch
+    [ RBJNotch ]
+  FreeVerb1
+  QMenuRole
+  Message
+  MIDIIn
+  DebugFrame
+  ScaleStream
+  MeterSync
+  SkipJack
+  BF
+  OSCBundle
+  [
+    MixedBundle
+      [ MixedBundleTester ]
+  ]
+  QCurve
+  AbstractMessageMatcher
+  [
+    OSCArgsMatcher
+    MIDIFuncChanMessageMatcher
+    MIDIFuncBothCAMessageMatcher
+    HIDRawValueMatcher
+    HIDFuncElementProtoMatcher
+    MIDISMPTEAssembler
+    OSCFuncRecvPortMessageMatcher
+    HIDValueMatcher
+    OSCFuncBothMessageMatcher
+    MIDIFuncSrcMessageMatcher
+      [ MIDIFuncSrcSysMessageMatcherND MIDIFuncSrcMessageMatcherNV MIDIFuncSrcSysMessageMatcher ]
+    HIDFuncDeviceProtoMatcher
+    MIDIValueMatcher
+    OSCFuncAddrMessageMatcher
+    MIDIFuncChanArrayMessageMatcher
+    MIDIFuncBothMessageMatcher
+  ]
+  NumChannels
+  URI
+  Dialog
+    [ QDialog ]
+  QColorRole
+  QObject
+  [
+    FileDialog
+      [ QFileDialog ]
+    Download
+    ScrollCanvas
+    [
+      QScrollCanvas
+      TopScrollWidget
+        [ QTopScrollWidget ]
+    ]
+    QCallback
+    AbstractMenuAction
+      [ MenuAction CustomViewAction ]
+    QPenPrinter
+    Layout
+    [
+      GridLayout
+        [ QGridLayout ]
+      LineLayout
+      [
+        QLineLayout
+        VLayout
+          [ QVLayout ]
+        HLayout
+          [ QHLayout ]
+      ]
+      QLayout
+      StackLayout
+        [ QStackLayout ]
+    ]
+    View
+    [
+      Button
+        [ QButton ]
+      EnvelopeView
+        [ QEnvelopeView ]
+      MultiSliderView
+        [ QMultiSliderView ]
+      TreeView
+        [ QTreeView ]
+      VLayoutView
+        [ QVLayoutView ]
+      CheckBox
+        [ QCheckBox ]
+      SCScope
+        [ QScope ]
+      QuartzComposerView
+        [ QQuartzComposerView ]
+      SoundFileView
+        [ QSoundFileView ]
+      CompositeView
+      TopView
+        [ QTopView ]
+      WebView
+        [ QWebView ]
+      UserView
+        [ QUserView ]
+      TextViewBase
+      [
+        TextField
+        [
+          DragView
+          [
+            DragSource
+              [ QDragSource ]
+            DragSink
+            [
+              QDragSink
+              DragBoth
+                [ QDragBoth ]
+            ]
+            QDragView
+          ]
+          QTextField
+        ]
+        QTextViewBase
+        StaticText
+          [ QStaticText ]
+      ]
+      AbstractScroll
+      [
+        ScrollView
+        [
+          QScrollView
+          ScrollTopView
+            [ QScrollTopView ]
+        ]
+        QAbstractScroll
+        [
+          TextView
+            [ QTextView ]
+        ]
+      ]
+      ItemViewBase
+      [
+        ListView
+          [ QListView ]
+        PopUpMenu
+          [ QPopUpMenu ]
+        QItemViewBase
+      ]
+      QView
+      AbstractStepValue
+      [
+        QAbstractStepValue
+        [
+          Knob
+            [ QKnob ]
+          RangeSlider
+            [ QRangeSlider ]
+          NumberBox
+            [ QNumberBox ]
+          Slider
+            [ QSlider ]
+          Slider2D
+            [ QSlider2D ]
+        ]
+      ]
+      ScopeView
+        [ Scope2 QScope2 ]
+      HLayoutView
+        [ QHLayoutView ]
+      LevelIndicator
+        [ QLevelIndicator ]
+      AbstractActionView
+        [ Menu ToolBar ]
+    ]
+  ]
+  Window
+    [ QWindow ]
+  Speakers
+  EnvironmentRedirect
+  [
+    LazyEnvir
+      [ ProxySpace ]
+  ]
+  Node
+  [
+    AbstractGroup
+    [
+      Group
+        [ RootNode ]
+      ParGroup
+    ]
+    Synth
+  ]
+  BLPF
+  NotificationRegistration
+  GUI
+  SelectX
+    [ LinSelectX ]
+  LRLPF
+  SimpleController
+  Exception
+  [
+    Error
+    [
+      MethodError
+      [
+        MustBeBooleanError
+        ImmutableError
+        NotYetImplementedError
+        ShouldNotImplementError
+        OutOfContextReturnError
+        DeprecatedError
+        PrimitiveFailedError
+        SubclassResponsibilityError
+        DoesNotUnderstandError
+          [ BinaryOpFailureError ]
+      ]
+    ]
+  ]
+  VBAPSpeakerArray
+  PatternConductor
+  Vocoder
+  AbstractPlayControl
+  [
+    SynthControl
+      [ SynthDefControl ]
+    StreamControl
+      [ PatternControl ]
+  ]
+  StackNumberAllocator
+  BhobLoShelf
+  Scale
+    [ ScaleAD ]
+  QWebFontFamily
+  JITGui
+  [
+    NdefGui
+    MonitorGui
+    TaskProxyAllGui
+      [ TdefAllGui PdefnAllGui PdefAllGui ]
+    PdefnGui
+    TaskProxyGui
+      [ TdefGui PdefGui ]
+    EnvirGui
+      [ NdefParamGui ]
+    ProxyMixer
+      [ NdefMixer ]
+    HistoryGui
+  ]
+  QLevelIndicatorStyle
+  QColorGroup
+  RingNumberAllocator
+  MultiTap
+  EnvGate
+  SCDoc
+  HiliteGradient
+  DelayWr
+  Post
+  BFFreeVerb
+  ZPoint
+  QLimits
+  QWebPageAction
+  SynthDesc
+  SynthDescLib
+  HIDElementProto
+  Silent
+  Size
+  MainMenu
+  Shift90
+  ScopeBuffer
+  TChoose
+  MIDIResponder
+  [
+    CCResponder
+    ProgramChangeResponder
+    NoteOnResponder
+      [ NoteOffResponder ]
+    TouchResponder
+      [ BendResponder ]
+  ]
+  MethodOverride
+  SoundIn
+    [ AudioIn ]
+  Rect
+  UniqueID
+  Quarks
+  Volume
+  ContiguousBlock
+  PingPong
+  ZPolar
+  PageLayout
+  Help
+  VolumeGui
+  Stethoscope
+    [ QStethoscope ]
+  Mix
+  HID
+  Buffer
+  Recorder
+  Phrase
+  UnitTestGUI
+  ContiguousBlockAllocator
+  Bus
+  QKey
+  ParamView
+  ProxyMonitorGui
+  TWChoose
+  Semaphore
+  LRHPF
+  ScaleLP
+  ServerShmInterface
+  RawPointer
+  Magnitude
+  [
+    Association
+    Number
+    [
+      Complex
+      Polar
+      SimpleNumber
+        [ Float Integer ]
+    ]
+    Char
+  ]
+  Boolean
+    [ False True ]
+  Nil
+  Symbol
+  Finalizer
+  AbstractFunction
+  [
+    Thunk
+      [ UGenThunk CallOnce ]
+    UnaryOpFunction
+      [ UnaryOpFunctionProxy ]
+    UGen
+    [
+      Line
+      PV_XFade
+      Pulse
+      OteySoundBoard
+      DigitalOut
+      PlaneTree
+      NTube
+      LPF1
+      InBus
+      NRand
+      EnvGen
+      DigitalIn
+      Sum3
+      JoshGrain
+      [
+        FMGrainB
+        MonoGrain
+        InGrainB
+        FMGrain
+        SinGrainI
+        BufGrainI
+        FMGrainI
+        SinGrain
+        InGrain
+        InGrainI
+        SinGrainB
+        BufGrainB
+        BufGrain
+      ]
+      WidthFirstUGen
+      [
+        PV_ChainUGen
+        [
+          PV_MagShift
+          PV_Freeze
+          PV_MagDiv
+          PV_PlayBuf
+          PV_BinDelay
+          PV_JensenAndersen
+          PV_MagFreeze
+          PV_PitchShift
+          PV_DiffMags
+          PV_RecordBuf
+          PV_RandWipe
+          PV_MagSubtract
+          FFT
+          PV_BinFilter
+          PV_MagAbove
+            [ PV_MagClip PV_LocalMax PV_MagBelow ]
+          PV_Diffuser
+          PV_BinBufRd
+          PV_ExtractRepeat
+          PV_HainsworthFoote
+          PV_MagLog
+          PV_RectComb
+          PV_BinShift
+          PV_Whiten
+          PV_BufRd
+          PV_BinScramble
+          PV_NoiseSynthP
+            [ PV_PartialSynthF PV_NoiseSynthF PV_PartialSynthP ]
+          PV_OddBin
+            [ PV_EvenBin ]
+          PV_MagExp
+          Cepstrum
+            [ ICepstrum ]
+          PV_Invert
+          PV_MagSmooth
+          PV_MagMap
+          PV_BrickWall
+          FFTTrigger
+          PV_BinWipe
+          PV_SpectralMap
+          PV_MaxMagN
+            [ PV_MinMagN ]
+          PV_RandComb
+          PV_MagSquared
+            [ PV_PhaseShift270 PV_MagNoise PV_Conj PV_PhaseShift90 ]
+          PV_MagSmear
+          PackFFT
+          PV_MagBuffer
+            [ PV_FreqBuffer ]
+          PV_RectComb2
+          PV_PhaseShift
+          PV_MagMulAdd
+          PV_MagMul
+          [
+            PV_Max
+            PV_Mul
+            PV_Min
+            PV_CopyPhase
+            PV_Div
+            PV_Copy
+            PV_Add
+          ]
+          PV_BinPlayBuf
+          PV_SpectralEnhance
+          PV_ConformalMap
+        ]
+        LocalBuf
+        RandSeed
+        SetBuf
+        ClearBuf
+        RandID
+        IFFT
+      ]
+      Squiz
+      MostChange
+        [ LeastChange ]
+      SLOnset
+      SplayAz
+      StkFlute
+      BMoog
+      TwoTube
+      OutputProxy
+      DigitalIO
+      BlitB3Saw
+      Klank
+      BufCombN
+        [ BufCombL BufCombC BufAllpassN BufAllpassC BufAllpassL ]
+      TrigAvg
+      ListTrig
+      Logistic
+      AtsUGen
+      [
+        AtsNoiSynth
+        AtsAmp
+        AtsBand
+        AtsFreq
+        AtsNoise
+        AtsSynth
+        AtsPartial
+      ]
+      NL
+      MarkovSynth
+      InfoUGenBase
+      [
+        ControlDur
+        NodeID
+        BlockSize
+        SampleDur
+        NumInputBuses
+        NumRunningSynths
+        NumControlBuses
+        SampleRate
+        ControlRate
+        NumBuffers
+        SubsampleOffset
+        RadiansPerSample
+        NumAudioBuses
+        NumOutputBuses
+      ]
+      PV_CommonMag
+        [ PV_CommonMul ]
+      FFTFluxPos
+      MoogLadder
+      Clipper32
+      Free
+      Unpack1FFT
+      SwitchDelay
+      SensoryDissonance
+      Meddis
+      StkMandolin
+      Pluck
+      Dust2
+      MantissaMask
+      TTendency
+      PeakFollower
+      PVSynth
+      TextVU
+      AmplitudeMod
+      Logger
+      LPCAnalyzer
+      StkBeeThree
+      BufWr
+      FeatureSave
+      StkClarinet
+      WhiteNoise
+        [ PinkNoise BrownNoise GrayNoise ClipNoise ]
+      SVF
+      TBall
+      DUGen
+      [
+        Dreset
+        MultiOutDemandUGen
+          [ Dneuromodule ]
+        ListDUGen
+          [ Drand Dser Dseq Dshuf Dxrand ]
+        Dbrown
+          [ Dibrown ]
+        Dseries
+        Dwhite
+          [ Diwhite ]
+        Dbufrd
+        Dfsm
+        Dbufwr
+        Dstutter
+        DNoiseRing
+        Dwrand
+        Ddup
+        DetaBlockerBuf
+        Dconst
+        Dswitch1
+          [ Dswitch ]
+        Dpoll
+        DbufTag
+          [ Dtag ]
+        Dgeom
+      ]
+      Spring
+      PeakEQ4
+      OteyPiano
+      OSFold4
+      BLBufRd
+      DemandEnvGen
+      PulseDivider
+      DoubleNestedAllpassN
+        [ DoubleNestedAllpassC DoubleNestedAllpassL ]
+      Normalizer
+        [ Limiter ]
+      Dgauss
+      PauseSelfWhenDone
+      SortBuf
+      Saw
+      StkBandedWG
+      NLFiltN
+        [ NLFiltL NLFiltC ]
+      Amplitude
+      AnalyseEvents2
+      LFGauss
+      StkMoog
+      DFM1
+      ExpRand
+      WeaklyNonlinear
+      FreeSelf
+      StkShakers
+      MoogVCF
+      GravityGrid
+      SpecPcile
+      FFTComplexDev
+      ScopeOut2
+      FFTPhaseDev
+      SendTrig
+        [ SendReply ]
+      LastValue
+      FreqShift
+      BufInfoUGenBase
+      [
+        BufRateScale
+        BufFrames
+        BufChannels
+        BufSampleRate
+        BufSamples
+        BufDur
+      ]
+      Latoocarfian2DN
+        [ Latoocarfian2DL Latoocarfian2DC ]
+      TExpRand
+      MCLDChaosGen
+        [ RosslerResL ]
+      ZeroCrossing
+      OSWrap8
+      Dunique
+      PosRatio
+      StkInst
+      StandardTrig
+      DynKlank
+      DWGPlucked
+      Tap
+      PV_Morph
+      TBrownRand
+      FFTSpread
+      Concat2
+      PauseSelf
+      Duty
+        [ TDuty ]
+      FFTMKL
+      LFNoise0
+      [
+        LFNoise1
+        LFDNoise0
+        LFClipNoise
+        LFDNoise3
+        LFDNoise1
+        LFNoise2
+        LFDClipNoise
+      ]
+      KmeansToBPSet1
+      BlitB3D
+      PermMod
+      FFTDiffMags
+      HilbertFIR
+      DWGBowedSimple
+      LPCError
+      DWGSoundBoard
+      TRand
+      FreeSelfWhenDone
+      IRand
+      SoftClipAmp4
+      OSWrap4
+      Done
+      DynKlang
+      WalshHadamard
+      EnvDetect
+      MouseX
+        [ MouseY ]
+      MultiOutUGen
+      [
+        JPverbRaw
+        WarpZ
+        TGrains3
+        MedianSeparation
+        AtsParInfo
+        GreyholeRaw
+        Tartini
+        DrumTrack
+        StereoConvolution2L
+        Oregonator
+        MFCC
+        AttackSlope
+        JoshMultiChannelGrain
+          [ MonoGrainBF ]
+        LADSPA
+        PureMultiOutUGen
+          [ DC ]
+        ArrayMax
+          [ ArrayMin ]
+        BeatTrack
+        CQ_Diff
+        PanAz
+        FFTPeak
+        FM7
+        FincoSprottL
+        SOMRd
+        ArneodoCoulletTresser
+        Hilbert
+        OnsetStatistics
+        DiskIn
+        VMScan2D
+        GVerb
+        SOMTrain
+        RosslerL
+        Warp1
+        LotkaVolterra
+        BeatStatistics
+        PanB
+        LoopBuf
+        FFTSubbandPower
+        JoshMultiOutGrain
+        [
+          BufGrainIBF
+          SinGrainBBF
+          BFGrainPanner
+            [ InGrainBF InGrainIBF InGrainBBF ]
+          FMGrainIBF
+          BufGrainBBF
+          FMGrainBBF
+          SinGrainIBF
+          FMGrainBF
+          BufGrainBF
+          SinGrainBF
+        ]
+        AbstractIn
+        [
+          SharedIn
+          LagIn
+          InFeedback
+          LocalIn
+          InTrig
+          In
+        ]
+        VBAP
+        Balance2
+        UnpackFFT
+        FincoSprottM
+        BufRd
+        FFTSubbandFlatness
+        BiPanB2
+        Spreader
+        FreeVerb2
+        AudioControl
+        TGrains2
+        GrainFMJ
+        GrainBuf
+        BFPanner
+        [
+          FMHEncode0
+          BFManipulate
+          BFEncode1
+          BFEncodeSter
+          FMHEncode2
+          UHJ2B
+          BFEncode2
+          A2B
+          B2UHJ
+          B2Ster
+          FMHEncode1
+          Rotate
+          Tilt
+          Tumble
+          B2A
+        ]
+        Pan2
+          [ LinPan2 ]
+        LPCVals
+        PlayBuf
+        GrainSinJ
+        RMAFoodChainL
+        GrainFM
+        Control
+          [ TrigControl LagControl ]
+        FFTSubbandFlux
+        PanB2
+        Qitch
+        Chromagram
+        PanX2D
+        Rotate2
+        SpectralEntropy
+        BufMax
+          [ BufMin ]
+        PanX
+        DecodeB2
+        Pan4
+        MdaPiano
+        GrainSin
+        Pitch
+        SpruceBudworm
+        GrainBufJ
+        FincoSprottS
+        BBlockerBuf
+        BeatTrack2
+        SMS
+        Brusselator
+        GrainIn
+        Demand
+        GrainInJ
+        MatchingP
+        TGrains
+        PVInfo
+        BinData
+        Goertzel
+        NearestN
+        VDiskIn
+      ]
+      ChaosGen
+      [
+        HenonN
+          [ HenonL HenonC ]
+        LatoocarfianN
+          [ LatoocarfianC LatoocarfianL ]
+        FBSineN
+          [ FBSineL FBSineC ]
+        CuspN
+          [ CuspL ]
+        QuadN
+          [ QuadL QuadC ]
+        LinCongN
+          [ LinCongC LinCongL ]
+        LorenzL
+        StandardN
+          [ StandardL ]
+        GbmanN
+          [ GbmanL ]
+      ]
+      WaveletDaub
+      Max
+      DWGPluckedStiff
+      LinRand
+      ToggleFF
+      Convolution2
+      LPFVS6
+      StkBlowHole
+      DWGBowed
+      WeaklyNonlinear2
+      SendPeakRMS
+      InRect
+      TermanWang
+      Streson
+      PV_Compander
+      Linen
+      Peak
+        [ RunningMin RunningMax ]
+      AverageOutput
+      Concat
+      FFTCrest
+      WaveTerrain
+      LatoocarfianTrig
+      FhnTrig
+      DPW4Saw
+      Loudness
+      MembraneCircle
+        [ MembraneHexagon ]
+      DoubleWell
+      OnsetsDS
+      GbmanTrig
+      WAmp
+      Lorenz2DN
+        [ Lorenz2DC Lorenz2DL ]
+      Fhn2DN
+        [ Fhn2DC Fhn2DL ]
+      Blip
+      SineShaper
+      StkVoicForm
+      ListTrig2
+      Crest
+      Timer
+      CombLP
+      PureUGen
+      [
+        DegreeToKey
+        AmpComp
+          [ AmpCompA ]
+        LFPulse
+        LinExp
+        Formant
+        VOsc
+        Impulse
+        K2A
+          [ T2A ]
+        Select
+        SyncSaw
+        COsc
+        LFSaw
+          [ LFCub LFTri LFPar ]
+        Index
+        [
+          IndexL
+          DetectIndex
+          WrapIndex
+          IndexInBetween
+          FoldIndex
+          Shaper
+        ]
+        A2K
+          [ T2K ]
+        DelayN
+          [ DelayL DelayC ]
+        VOsc3
+        SinOsc
+        Osc
+        Delay1
+          [ Delay2 ]
+        Filter
+        [
+          MoogFF
+          Median
+          GlitchHPF
+          Slew
+          GlitchBPF
+            [ GlitchBRF ]
+          TwoPole
+            [ TwoZero APF ]
+          Friction
+          DetectSilence
+          Lag
+            [ Lag2 Ramp Lag3 ]
+          MeanTriggered
+          FreeVerb
+          WaveLoss
+          RLPF
+            [ RHPF ]
+          MidEQ
+          Changed
+          VarLag
+          LPZ2
+            [ HPZ2 BRZ2 BPZ2 ]
+          Resonz
+          LPZ1
+            [ HPZ1 ]
+          FOS
+          InsideOut
+          MedianTriggered
+          Formlet
+          GlitchRHPF
+          BPF
+            [ BRF ]
+          CircleRamp
+          LPF
+            [ HPF ]
+          Decay2
+          SOS
+          LagUD
+            [ Lag2UD Lag3UD ]
+          Decay
+          OnePole
+            [ OneZero ]
+          Integrator
+          Ringz
+          LeakDC
+          BEQSuite
+          [
+            BLowShelf
+            BPeakEQ
+            BHiShelf
+            BLowPass
+            BHiPass
+            BBandPass
+            BBandStop
+            BAllPass
+          ]
+          Slope
+        ]
+        Vibrato
+        CombN
+          [ CombL AllpassC AllpassL CombC AllpassN ]
+        SinOscFB
+        VarSaw
+        OscN
+      ]
+      RLPFD
+      PitchShift
+      Compander
+      PSinGrain
+      VOSIM
+      Pause
+      MaxLocalBufs
+      CompanderD
+      GravityGrid2
+      LPCSynth
+      HairCell
+      DPW3Tri
+      PermModT
+      BlitB3Tri
+      BlitB3
+      BasicOpUGen
+        [ BinaryOpUGen UnaryOpUGen ]
+      PV_MagScale
+      TPV
+      Ball
+      Clipper8
+      DelTapRd
+      GaussClass
+      AY
+      SmoothDecimator
+      SoftClipper4
+      RecordBuf
+      PartConv
+      Phasor
+      SkipNeedle
+      NL2
+      Stepper
+      PermModArray
+      Convolution3
+      InRange
+        [ Fold Schmidt Wrap Clip ]
+      Trig1
+        [ Trig TDelay ]
+      FSinOsc
+      Gbman2DN
+        [ Gbman2DC Gbman2DL ]
+      Poll
+      DWGPlucked2
+      Gendy4
+        [ Gendy5 ]
+      StkSaxofony
+      FFTCentroid
+      DWGBowedTor
+      OSFold8
+      ScopeOut
+      PrintVal
+      GaussTrig
+      OteyPianoStrings
+      Sweep
+      CoinGate
+      AnalogOut
+      WrapSummer
+      CheckBadValues
+      XFade2
+      SawDPW
+      Dust
+      NeedleRect
+      ComplexRes
+      Coyote
+      Instruction
+      ModDif
+      Splay
+      StkBowed
+      LPF18
+      Gendy3
+      NestedAllpassN
+        [ NestedAllpassC NestedAllpassL ]
+      KeyMode
+      Crackle
+      Metro
+      Henon2DN
+        [ Henon2DC Henon2DL ]
+      KeyTrack
+      Standard2DN
+        [ Standard2DC Standard2DL ]
+      XLine
+      RMEQSuite
+      [
+        Allpass2
+        RMShelf
+        Allpass1
+        RMShelf2
+        RMEQ
+          [ RegaliaMitraEQ ]
+      ]
+      Sanitize
+      Sum4
+      DoubleWell3
+      Summer
+      AudioMSG
+      Perlin3
+      SinTone
+      DiskOut
+      Convolution
+      LFBrownNoise0
+        [ LFBrownNoise2 LFBrownNoise1 ]
+      PV_SoftWipe
+        [ PV_Cutoff ]
+      TWindex
+      IEnvGen
+      KeyState
+      MatchingPResynth
+      SoftClipper8
+      Balance
+      Gendy2
+      PulseCount
+        [ SetResetFF ]
+      MulAdd
+      EnvFollow
+      HenonTrig
+      AnalogIn
+      PV_MagGate
+      Latch
+        [ Gate ]
+      SoftClipAmp8
+      LorenzTrig
+      CrossoverDistortion
+      SOMAreaWr
+      RunningSum
+      IIRFilter
+      Clockmus
+      OSTrunc4
+      SpecFlatness
+      Breakcore
+      Disintegrator
+      DelTapWr
+      Getenv
+      BufDelayN
+        [ BufDelayL BufDelayC ]
+      SoftClipAmp
+      TIRand
+      Klang
+      Convolution2L
+      DriveNoise
+      DoubleWell2
+      FFTFlux
+      AbstractOut
+      [
+        BelaScopeOut
+        LocalOut
+        Out
+          [ OffsetOut ReplaceOut ]
+        SharedOut
+        XOut
+      ]
+      LTI
+      Gammatone
+      Dbrown2
+      FitzHughNagumo
+      Hasher
+      TBetaRand
+      MouseButton
+      Onsets
+      Sieve1
+      FFTSlope
+      Clipper4
+      BFDecoder
+        [ BFDecode1 FMHDecode1 ]
+      Maxamp
+      KeyClarity
+      Rand
+      FFTPower
+      KMeansRT
+      StkModalBar
+      SpecCentroid
+      PV_MagMinus
+      MultiplexAnalogIn
+      Gendy1
+      OSTrunc8
+      StkPluck
+      BlitB3Square
+      RMS
+      LinXFade2
+      StkGlobals
+      PeakEQ2
+      FrameCompare
+      Decimator
+      TGaussRand
+      DiodeRingMod
+    ]
+    AbstractOpPlug
+      [ BinaryOpPlug UnaryOpPlug ]
+    Pattern
+    [
+      Pseries
+      Pfunc
+      Pstep
+        [ Pseg ]
+      Plorenz
+      Pevent
+      Pstep3add
+      Pstep2add
+      Pif
+      Pindex
+      Pgeom
+      Pquad
+      Pchain
+      PstepNfunc
+        [ PstepNadd ]
+      Punop
+      Pprob
+      Pbrown
+        [ Pgbrown ]
+      Ppoisson
+      Spawner
+      Pget
+      Pmono
+        [ PmonoArtic ]
+      Pkey
+      PbindProxy
+      FilterPattern
+      [
+        Psetpre
+          [ Paddpre Pmulpre ]
+        Pstutter
+        PfinQuant
+        Pbus
+        Plambda
+        Pbindf
+        Pdiff
+        FuncFilterPattern
+          [ Pselect Pfset Pwhile Preject Pcollect ]
+        Psym
+        [
+          Psym1
+          Ptsym
+          Pnsym
+            [ Pnsym1 ]
+        ]
+        Prorate
+        Pstretch
+          [ Pstretchp ]
+        Pfin
+          [ Pfinval ]
+        Pfindur
+        PfadeIn
+          [ PfadeOut ]
+        Pavaroh
+        Pdrop
+        Pclump
+          [ Pflatten ]
+        Pwrap
+        Pdup
+          [ Psubdivide PdurStutter ]
+        Ptrace
+        Prewrite
+        Pprotect
+        Psync
+        Pplayer
+        Plag
+        Pseed
+        Pset
+        [
+          Pmul
+          Padd
+          Psetp
+            [ Paddp Pmulp ]
+        ]
+        Pclutch
+        PAbstractGroup
+          [ PparGroup Pgroup ]
+        Pn
+          [ Pgate ]
+        Pspawn
+        Pfx
+          [ Pfxb ]
+        Pconst
+      ]
+      Pcauchy
+      Pdict
+      Peventmod
+      PatternProxy
+      [
+        Pdefn
+        TaskProxy
+        [
+          Tdef
+          EventPatternProxy
+          [
+            Pdef
+              [ Pbindef ]
+          ]
+        ]
+      ]
+      Phenon
+      Pbeta
+      Pgauss
+      Penvir
+      Pnaryop
+        [ PdegreeToKey ]
+      Ptime
+      Pbind
+      Pproto
+      ListPattern
+      [
+        Pwalk
+        Ppar
+        [
+          Pgpar
+            [ Pgtpar ]
+          Ptpar
+        ]
+        Pwrand
+        Pdfsm
+        Pshuf
+        Pseq
+          [ Ppatlace Pser Place ]
+        Pslide
+        Ptuple
+        Prand
+        Pfpar
+        Pxrand
+        Pfsm
+      ]
+      Pswitch
+        [ Pswitch1 ]
+      Pbinop
+      Pfhn
+      Pwhite
+        [ Pmeanrand Plprand Pexprand Phprand ]
+      Pstandard
+      Pfuncn
+      Ppatmod
+      Platoo
+      Pgbman
+      PlinCong
+      Prout
+        [ Pspawner ]
+      Plet
+      Plazy
+      [
+        PlazyEnvir
+          [ PlazyEnvirN ]
+      ]
+    ]
+    BinaryOpFunction
+      [ BinaryOpFunctionProxy ]
+    Operand
+      [ Rest ]
+    NAryOpFunction
+    [
+      NAryOpFunctionProxy
+        [ NAryValueProxy ]
+    ]
+    BusPlug
+    [
+      NodeProxy
+        [ Ndef ]
+    ]
+    Ref
+    [
+      RefCopy
+      Maybe
+        [ Fdef ]
+    ]
+    FunctionList
+    Function
+    Stream
+    [
+      EmbedOnce
+      OneShotStream
+      PmonoStream
+        [ PmonoArticStream ]
+      FileReader
+        [ SemiColonFileReader CSVFileReader TabFileReader ]
+      BinaryOpXStream
+      UnaryOpStream
+      IOStream
+      [
+        Pretty
+        CollStream
+          [ LimitedWriteStream ]
+        UnixFILE
+        [
+          Pipe
+          File
+            [ AtsFile ]
+        ]
+      ]
+      NAryOpStream
+      FuncStream
+      BinaryOpStream
+      PauseStream
+        [ EventStreamPlayer Task ]
+      CleanupStream
+      StreamClutch
+      Thread
+      [
+        Routine
+          [ FuncStreamAsRoutine ]
+      ]
+    ]
+  ]
+  Interpreter
+  Process
+    [ Main ]
+  Frame
+  FunctionDef
+    [ Method ]
+  Collection
+  [
+    Set
+    [
+      Dictionary
+      [
+        IdentityDictionary
+        [
+          Environment
+            [ Event ]
+          NodeMap
+            [ ProxyNodeMap ]
+        ]
+      ]
+      IdentitySet
+        [ OrderedIdentitySet ]
+    ]
+    Range
+    MultiLevelIdentityDictionary
+    [
+      LibraryBase
+        [ Archive Library ]
+    ]
+    Interval
+    TwoWayIdentityDictionary
+      [ ObjectTable ]
+    Array2D
+    Pair
+    Bag
+      [ IdentityBag ]
+    SequenceableCollection
+    [
+      RingBuffer
+      LinkedList
+      Order
+        [ SparseArray ]
+      List
+        [ SortedList ]
+      ArrayedCollection
+      [
+        RawArray
+        [
+          DoubleArray
+          FloatArray
+            [ Wavetable Signal ]
+          String
+          SymbolArray
+          Int32Array
+          Int16Array
+          Int8Array
+        ]
+        Array
+      ]
+    ]
+  ]
+  Class
+          [.. all metaclasses ..]
+]
