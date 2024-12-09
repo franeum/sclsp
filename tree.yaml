@@ -525,8 +525,8 @@ Object:
         - Integer
     - Char
   - Boolean:
-    - False
-    - True
+    - "False"
+    - "True"
   - Nil
   - Symbol
   - Finalizer
