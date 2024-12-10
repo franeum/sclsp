@@ -3,6 +3,7 @@
 import logging
 import json
 from pygls.server import LanguageServer
+from pygls.workspace import TextDocument, Workspace
 from lsprotocol.types import (
     CompletionItem,
     CompletionItemKind,
@@ -10,23 +11,26 @@ from lsprotocol.types import (
     CompletionParams,
     InitializeParams,
     TextDocumentSyncKind,
+    TextDocumentItem,
     TEXT_DOCUMENT_COMPLETION
 )
 
 classes = None
+methods = []
 items = []
 
 # Create the Language Server
 
 logging.basicConfig(filename="server_lsp_mio.log", level=logging.DEBUG)
 
-
+"""
 class SuperColliderLanguageServer(LanguageServer):
     def __init__(self):
         super().__init__("supercollider-ls", "v0.1")
+"""
+server = LanguageServer("supercollider-ls", "v0.1")
 
-
-server = SuperColliderLanguageServer()
+# server = SuperColliderLanguageServer()
 
 # Configura l'inizializzazione
 
@@ -39,6 +43,12 @@ def init():
 
     with open('./summaries.json', 'r') as j:
         summaries = json.load(j)
+
+    with open('./all_methods.txt', 'r') as m:
+        for method in m.readlines():
+            # methods.append(method.strip(None))
+            methods.append(CompletionItem(method.strip(
+                None), kind=CompletionItemKind.Method))
 
     for _class in classes:
         items.append(CompletionItem(_class, kind=CompletionItemKind.Class,
@@ -78,18 +88,13 @@ def completions(params: CompletionParams):
     ]
     """
 
-    document = params.text_document
+    uri = params.text_document.uri
+    document = server.workspace.get_document(uri)
     position = params.position
 
     print(document)
 
-    if is_class_context(document, position):
-        methods = [
-            CompletionItem(
-                label="method1", kind=CompletionItemKind.Method, insert_text="method1()"),
-            CompletionItem(
-                label="method2", kind=CompletionItemKind.Method, insert_text="method2()"),
-        ]
+    if is_class_context(document.source, position):
         return CompletionList(is_incomplete=False, items=methods)
 
     return CompletionList(is_incomplete=False, items=items)

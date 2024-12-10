@@ -1,0 +1,47 @@
+compiling class library...
+	Found 867 primitives.
+	Compiling directory '/home/neum/.local/share/SuperCollider/Extensions'
+	Compiling directory '/home/neum/Documenti/SuperCollider/SCClassLibrary'
+	Compiling directory '/home/neum/Documenti/SuperCollider/Extensions'
+	numentries = 1201289 / 18426962 = 0.065
+	5791 method selectors, 3182 classes
+	method table size 19440976 bytes, big table size 147415696
+	Number of Symbols 14632
+	Byte Code Size 424631
+	compiled 455 files in 0.39 seconds
+
+Info: 4 methods are currently overwritten by extensions. To see which, execute:
+MethodOverride.printAll
+
+compile done
+localhost : setting clientID to 0.
+internal : setting clientID to 0.
+Class tree inited in 0.01 seconds
+
+
+*** Welcome to SuperCollider 3.13.0. *** For help type ctrl-c ctrl-h (Emacs) or :SChelp (vim) or ctrl-U (sced/gedit).
+sc3> Object.class.methods.do({|i| i.name.postln;})
+dependantsDictionary
+uniqueMethods
+new
+newCopyArgs
+initClass
+prNew
+prNewCopyArgs
+readArchive
+readTextArchive
+readBinaryArchive
+implClass
+-> [ a Method, a Method, a Method, a Method, a Method, a Method, a Method, a Method, a Method, a Method, a Method ]
+sc3> HighShelf.class.methods.do({|i| i.name.postln;})
+ar
+-> [ a Method ]
+sc3> RBJHighShelf.class.methods.do({|i| i.name.postln;})
+-> nil
+sc3> FlowVar.class.methods.do({|i| i.name.postln;})
+new
+-> [ a Method ]
+sc3> ZLPF.class.methods.do({|i| i.name.postln;})
+ar
+-> [ a Method ]
+sc3> 
